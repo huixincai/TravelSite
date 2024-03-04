@@ -41,15 +41,16 @@ body, html, h1, h2 {
     padding: 14px 16px;
     text-decoration: none;
     transition: color 0.3s;
+    text-underline-offset: 1ex;
+    &.navbar--active {
+        color: #DB7A4E;
+        text-decoration: underline;
+        text-decoration-thickness: 0.3ex;
+    }
 }
 
-.navbar li a:hover, .navbar .active {
+.navbar li a:hover {
     color: #DB7A4E;
-}
-
-.navbar a.active {
-    color: #DB7A4E;
-    text-decoration: underline;
 }
 
 /* Footer styling */
@@ -62,30 +63,30 @@ footer {
     flex-wrap: wrap;
 }
 
-.footer-section {
+.footer__section {
     margin: 20px 0;
 }
 
-.footer-hours {
+.footer__hours {
     display: inline-block;
     padding-right: 20px;
 }
 
-.footer-section h3 {
+.footer__subtitle {
+    color: #DB7A4E;
+}
+
+.footer__section h3 {
     color: #335576;
     margin-bottom: 20px;
 }
 
-.footer-section .footer-subtitle {
-    color: #DB7A4E;
-}
-
-.footer-section p {
+.footer__section p {
     color: #335576;
     margin: 10px 0;
 }
 
-.footer-section a img {
+.footer__section a img {
     height: 24px;
-    margin: 0 10px;
+    margin: 1.5em 1.5em 0 0;
 }
