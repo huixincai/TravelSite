@@ -1,0 +1,46 @@
+.destination {
+    background-size: cover;
+    background-position: center;
+    height: 60vh;
+    padding: 50px;
+}
+
+.destination-title {
+    font-size: 4em;
+    color: white;
+}
+
+.itinerary {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.itinerary .day {
+    background: white;
+    margin: 20px;
+    padding: 20px;
+    width: 15vw;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+}
+
+.itinerary h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.itinerary ul {
+    list-style: none;
+    padding: 0;
+}
+
+.itinerary li {
+    padding: 10px 0;
+    border-top: 1px solid #ccc;
+}
+
+.itinerary li:first-child {
+    border-top: none;
+}

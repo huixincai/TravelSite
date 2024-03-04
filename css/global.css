@@ -1,0 +1,89 @@
+/* Global Styles */
+body, html, h1, h2 {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 50px;
+    align-items: center;
+    background-color: #FFFFFF;
+}
+
+.logo {
+    font-size: 24px;
+    color: #335576;
+}
+
+.navbar .logo a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+.navbar li {
+    padding: 0 10px;
+}
+
+.navbar li a {
+    display: block;
+    color: #335576;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar li a:hover, .navbar .active {
+    color: #DB7A4E;
+}
+
+.navbar a.active {
+    color: #DB7A4E;
+    text-decoration: underline;
+}
+
+/* footer {
+    background-color: #FEFAF5;
+    color: #335576;
+    padding: 20px;
+    text-align: center;
+} */
+
+/* Footer styling */
+footer {
+    background-color: #FEFAF5;
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    margin: 20px 0;
+}
+
+.footer-section h3 {
+    color: #335576;
+    margin-bottom: 10px;
+}
+
+.footer-section p {
+    color: #335576;
+    margin: 5px 0;
+}
+
+.footer-section a img {
+    height: 24px;
+    margin: 0 10px;
+}
