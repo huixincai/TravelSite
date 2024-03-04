@@ -66,14 +66,23 @@ footer {
     margin: 20px 0;
 }
 
+.footer-hours {
+    display: inline-block;
+    padding-right: 20px;
+}
+
 .footer-section h3 {
     color: #335576;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+.footer-section .footer-subtitle {
+    color: #DB7A4E;
 }
 
 .footer-section p {
     color: #335576;
-    margin: 5px 0;
+    margin: 10px 0;
 }
 
 .footer-section a img {
