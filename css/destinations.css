@@ -27,8 +27,8 @@
 
 .itinerary h2 {
     font-size: 1.5em;
-    color: #333;
     margin-bottom: 20px;
+    border-bottom: 0.25ex solid;
 }
 
 .itinerary ul {
@@ -37,10 +37,7 @@
 }
 
 .itinerary li {
-    padding: 10px 0;
-    border-top: 1px solid #ccc;
-}
-
-.itinerary li:first-child {
-    border-top: none;
+    margin: 10px;
+    padding: 10px;
+    background-color: #FEFAF5;
 }
